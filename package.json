@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人笔记",
+  "main": "index.js",
+  "repository": "git@github.com:D-Explorer/blog.git",
+  "author": "起不了床的夜猫子",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "moment": "^2.29.0",
+    "vuepress-plugin-auto-sidebar": "^1.5.0"
+  }
+}
