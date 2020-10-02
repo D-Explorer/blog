@@ -3,4 +3,4 @@
 
 set -e
 
-echo 'blog.morethink.top' > docs/.vuepress/dist/cname
+echo 'blog.morethink.top' > docs/.vuepress/dist/CNAME
