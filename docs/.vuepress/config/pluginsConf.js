@@ -10,15 +10,15 @@ module.exports = {
   '@vuepress/back-to-top':{},
   //自动生成侧边栏和导航栏
   'vuepress-plugin-auto-sidebar': { collapsable: true },
-  // '@vssue/vuepress-plugin-vssue': {
-  //   // 设置 `platform` 而不是 `api`
-  //   platform: 'github-v4',
+   '@vssue/vuepress-plugin-vssue': {
+    // 设置 `platform` 而不是 `api`
+    platform: 'github-v4',
 
-  //   // 其他的 Vssue 配置
-  //   owner: 'D-Explorer',
-  //   repo: 'VuePress_Test',
-  //   clientId: '23fe22d34973774d52fa',
-  //   clientSecret: 'b7b185b3cc2b84cd29b0952e680c6d3248ed2a67',
-  //   autoCreatIssue: true,
-  // },
+    // 其他的 Vssue 配置
+    owner: 'D-Explorer',
+    repo: 'blog',
+    clientId: '23fe22d34973774d52fa',
+    clientSecret: 'b7b185b3cc2b84cd29b0952e680c6d3248ed2a67',
+    autoCreatIssue: true,
+  },
 }
