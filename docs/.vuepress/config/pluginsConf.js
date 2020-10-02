@@ -7,7 +7,7 @@ module.exports = {
       return moment(timestamp).format('LLLL')
     },
   },
-
+  '@vuepress/back-to-top':{},
   //自动生成侧边栏和导航栏
   'vuepress-plugin-auto-sidebar': { collapsable: true },
   // '@vssue/vuepress-plugin-vssue': {

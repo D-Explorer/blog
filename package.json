@@ -7,12 +7,14 @@
   "author": "起不了床的夜猫子",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
     "vuepress": "^1.6.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "cname": "bash cname.sh"
   },
   "dependencies": {
     "moment": "^2.29.0",
