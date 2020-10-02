@@ -3,4 +3,5 @@
 
 set -e
 
-echo 'blog.morethink.top' > docs/.vuepress/dist/CNAME
+# CNAME 不能写成小写
+echo 'blog.morethink.top' > docs/.vuepress/dist/CNAME 
