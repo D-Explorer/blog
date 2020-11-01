@@ -2,9 +2,9 @@
 title: TwinCAT 2.0 学习笔记
 ---
 ## TwinCAT 2.0 简介
-
-## title: 验证travis ci 自动化部署 
-如果 git push 后，能自动部署，就会显示这一行字
-
+TwinCAT 2.0 是beckhoff 公司基于codesys环境软件开发的工业控制软件。
+:::tips
+倍福官方学习平台：[倍福学院](https://tr.beckhoff.com.cn/)
+:::
 
 <Vssue />
