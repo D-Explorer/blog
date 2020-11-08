@@ -19,3 +19,10 @@ git init
 ```Git
 git clone https://github.com/D-Explorer/blog.git
 ```
+当运行完后，会在当前目录生成`blog`文件夹，其中包含着morethink.top的所有内容。
+
+如果想要在克隆的时候自定义项目目录名称，可以在上面命令最后指定：
+```git
+git clone https://github.com/D-Explorer/blog.git myblog
+```
+这样创建的目录名称就不是blog而是myblog。
