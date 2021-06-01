@@ -7,4 +7,7 @@ module.exports = [
       { text: 'TwinCAT 3.0', link: '/TwinCAT/TwinCAT 3.0/' },
     ],
   },
+  {
+    text: 'LeetCode', link: '/LeetCode/',
+  }
 ]
